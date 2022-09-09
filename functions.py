@@ -25,3 +25,10 @@ def eat_lunch(parm):
 # Test that your file works by running it in your terminal. Remember, you need to call your
 # functions in order for them to run. Make sure that all three functions run (please print the output
 # of pack()) before submitting the file.
+
+hello()
+print(pack("a","b","c"))
+print(pack(1,2,3))
+eat_lunch([])
+eat_lunch(["sandwich"])
+eat_lunch(["apple","banana","sandwich","cookie"])
